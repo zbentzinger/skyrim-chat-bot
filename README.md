@@ -14,3 +14,15 @@ Chat bots for Elder Scrolls V: Skyrim NPCs
 1. `git clone`
 2. `eval $(pdm venv activate in-project)`
 3. `pdm install`
+
+### Post install:
+Export environment variables:
+```bash
+export NLTK_DATA=./nltk_data
+```
+
+## Run the Natural Language Processing Demo:
+```bash
+cd bots/
+python natural_language_processing.py
+```
